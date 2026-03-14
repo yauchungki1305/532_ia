@@ -12,7 +12,23 @@ An interactive R Shiny dashboard for exploring parks in Vancouver, BC. This appl
 
 To run this application locally, you must have [R](https://cran.r-project.org/) and [RStudio](https://posit.co/download/rstudio-desktop/) installed.
 
-1. **Clone the repository:**
+1. **Clone the repository (terminal):**
    ```bash
    git clone [[https://github.com/your-username/vancouver-park-dashboard.git](https://github.com/your-username/vancouver-park-dashboard.git)](https://github.com/yauchungki1305/532_ia.git)
+   ```
+2. **Move to the project directory (terminal):**
+   ```bash
    cd 532_ia
+   ```
+3. **In r package:**
+  Open R Studio console or open r in terminal, then past the code below to install packages
+   ```r
+   install.packages(c("shiny", "leaflet", "plotly", "dplyr", "readr", "DT", "bslib", "tidyr"))
+   ```
+4. **run the app (R console)**
+   Remember to ensure you are in the project directory
+   ```r
+   runApp("App-1")
+   ```
+   Or, open the file `app.R` in `App-1` on Rstudio and press the `Run App` button in the top right of the interface.
+   
