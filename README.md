@@ -2,6 +2,9 @@
 
 An interactive R Shiny dashboard for exploring parks in Vancouver, BC. This application allows users to filter parks by size, neighbourhood, and facilities, while visualizing data through interactive maps and charts.
 
+## Link of the deployed application on Posit Connect Cloud
+https://019cee73-0bfd-74d9-6fe2-24a365d5308e.share.connect.posit.cloud/
+
 ## Features
 * **Interactive Map:** Built with `leaflet` to show park locations with custom status overlays.
 * **Data Exploration:** A searchable, scrollable table powered by `DT`.
@@ -14,7 +17,7 @@ To run this application locally, you must have [R](https://cran.r-project.org/) 
 
 1. **Clone the repository (terminal):**
    ```bash
-   git clone [[https://github.com/your-username/vancouver-park-dashboard.git](https://github.com/your-username/vancouver-park-dashboard.git)](https://github.com/yauchungki1305/532_ia.git)
+   git clone https://github.com/yauchungki1305/532_ia.git
    ```
 2. **Move to the project directory (terminal):**
    ```bash
